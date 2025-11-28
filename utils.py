@@ -1,5 +1,3 @@
-# utils.py
-
 import pdfplumber
 
 
@@ -19,10 +17,6 @@ def extract_text_from_pdf(pdf_path: str) -> str:
                 final_text.append(text)
     return "\n\n".join(final_text)
 
-
-# (Optional) If you want to create reusable prompt strings,
-# you can place them here, but we already use templates
-# directly in agents.py – this is just for future expansion.
 
 # --------------------------
 # HELPER: Clean Text

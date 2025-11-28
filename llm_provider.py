@@ -16,6 +16,6 @@ def get_llm():
         temperature=0.2,
         max_tokens=800,
         base_url=base_url,
-        streaming=False   # IMPORTANT FIX
+        streaming=False   
     )
     return llm

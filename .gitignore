@@ -1,16 +1,47 @@
-# Ignore virtual environment
+# -------------------------
+# Python & Virtual Environment
+# -------------------------
 venv/
-
-# Ignore environment vars
-.env
-
-# Python cache
-__pycache__/
+env/
 *.pyc
+__pycache__/
+*.pyo
+*.pyd
 
-# Streamlit / Chroma / data files
+# -------------------------
+# Environment Variables
+# -------------------------
+.env
+.env.*
+
+# -------------------------
+# Chroma / Vector Database
+# -------------------------
 chroma_db/
-data/
+chroma/
+*.sqlite3
+*.db
 
-# OS files
+# -------------------------
+# Uploaded PDF Notes
+# -------------------------
+data/
+*.pdf
+
+# -------------------------
+# Cache / Temp Files
+# -------------------------
+*.log
+*.tmp
+.cache/
 .DS_Store
+
+# -------------------------
+# Streamlit
+# -------------------------
+.streamlit/
+
+# -------------------------
+# VS Code
+# -------------------------
+.vscode/
