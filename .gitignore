@@ -1,0 +1,16 @@
+# Ignore virtual environment
+venv/
+
+# Ignore environment vars
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Streamlit / Chroma / data files
+chroma_db/
+data/
+
+# OS files
+.DS_Store

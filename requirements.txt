@@ -1,0 +1,15 @@
+streamlit>=1.20
+langchain>=0.0.300
+langchain-ollama
+langchain-huggingface
+langchain-text-splitters
+langchain-core
+chromadb>=0.3.24
+tqdm
+python-dotenv
+pdfplumber
+sentence-transformers
+faiss-cpu>=1.7.4
+uvicorn
+pydantic
+typing-extensions
